@@ -23,13 +23,19 @@ Global Health Data Exchange (GHDx) is a new data catalog for demographic, public
 ## Data Cleansing
 * Data has been cleaned, merged and made ready for model and Tableau by a mix of Python and Excel codes. 
 
-* 
-
 ## Data Analysis
 ### Descriptive Analysis
 
+Descriptive analysis was conducted on the data using Tableau. The link to the Tableau Public page is provided below:
+
+https://public.tableau.com/profile/sibasish.sinha#!/vizhome/FinalProject_15720800732710/Map-AlcoholConsumption?publish=yes
 
 ### Predictive Analysis
 
+* For the predictive analysis part, first mortality data was checked for spread. Then correlation of the factors was checked. We can see that Mortality is positively correlated with Obesity, Smoking, Poverty, while negatively correlated with Physical Activity, Alcohol Consumption and almost not correlated with Fast Food Consumption
 
-## Conclusion
+* After reshaping the data, and splitting the dataset into test and train, a multilinear regression model was built. The R2 came to .52, which was less than what was expected considering the factors were handpicked and trustworthy data was used to build the model
+
+*   Or it could simply mean that the factors chosen are not capable of predicting cancer mortality. And there are 100s of cancer varieties, each with their own causes and idiosyncrasies, might be narrowing to a specific type of cancer could make these variables “predictors”
+
+
