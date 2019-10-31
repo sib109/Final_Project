@@ -21,7 +21,9 @@ Global Health Data Exchange (GHDx) is a new data catalog for demographic, public
 * Fast Food data came from the USDA Economic Research Service (https://www.ers.usda.gov/amber-waves/2010/december/data-feature-compare-your-areas-food-environment-with-the-rest-of-the-country/ )
 
 ## Data Cleansing
-* Data has been cleaned, merged and made ready for model and Tableau by a mix of Python and Excel codes. 
+* Data has been cleaned, merged and made ready for model and Tableau by a mix of Python and Excel codes
+
+* The individual state files combine to 1.12 GB and it could not be uploaded. Only the Alabama file for cancer mortality has been uploaded
 
 ## Data Analysis
 ### Descriptive Analysis
